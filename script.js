@@ -10,14 +10,6 @@ panels.forEach(function (i) {                           // loop through each pan
 });
 
 
-/*
-panels.forEach(panel => {
-    panel.addEventListener('click', () => {
-        removeActiveClasses()
-        panel.classList.add('active')
-    })
-})
-*/
 
 function removeActiveClasses(){
     panels.forEach(function(panel){
@@ -25,11 +17,3 @@ function removeActiveClasses(){
     })
 }
 
-
-/*
-function removeActiveClasses() {
-    panels.forEach(panel => {
-        panel.classList.remove('active')
-    })
-}
-*/
